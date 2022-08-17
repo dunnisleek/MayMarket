@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0px;
+    /* background-color: #F3F3F3; */
+   
+}
+
+
+nav h2{
+    font-size:25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F3F3;
+}
+
+.login{
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+/* herosection */
+.hero-section{
+    display: flex;
+    background-color: #F3F3F3;
+    padding: 70px 70px;
+   
+}
+
+.hero-section div{
+    flex: 33.33%;
+    padding:10,10px;
+}
+.hero-section h2{
+    font-size: 80px;
+    line-height: 85px;
+    padding-top: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+.hero-section p{
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.hero-section button{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-section img{
+   /* position: relative; */
+   margin-top: 8px;
+   vertical-align: middle;
+  border-radius: 30px;
+
+}
+.hero-section a{
+    color:#00A759;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* start second row */
+.column-layout{
+    display:flex;
+    gap: 20px;
+}
+.second-row{
+    padding: 60px 70px;
+    background-color: #F3F3F3;
+}
+.second-row h2{
+   font-size: 45px;
+   line-height: 55px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300;
+   text-align: center;
+   padding: 40px 0px;
+}
+.column{
+    background: #ffffff;
+    padding: 25px 50px;
+    height:30vh;
+    border-radius: 35px;
+}
+.column h3{
+    font-size: 25px;
+    line-height: 35px;
+    background: #ffffff;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.column p{
+    background: #ffffff;
+    
+    font-size: 17px;
+    font-weight: 400;
+    color:#757575;
+}
+.column img{
+    background: #ffffff;
+    width:20%;
+}
+/* start of image row */
+.image-row img{
+    width:100%;
+    padding: 90px 0px;
+    
+    overflow: hidden;
+}
+/*start of vendor section*/
+
+.column-four{
+    display:block;
+    gap: 20px;
+    width:500px;
+    /* height: 45vh; */
+    margin: auto;
+  
+}
+.col{
+    background-color: #ffffff;
+    padding: 20px 20px;
+    height:10vh;
+    border-radius: 15px;
+    margin: 30px;
+    display: flex;
+    gap:20px;
+}
+.image-row {
+    background-color: #F3F3F3;
+}
+.fourth-row{ 
+    background-image: url("images/Group\ 1.jpeg");
+    width:100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 80vh;
+   text-align: center;
+  
+}
+.fourth-row h2{
+    font-size: 30px;
+}
+.col h2{
+    border-radius: 80px;
+    padding:10px;
+    height: 5vh;
+    width:40px;
+    background :#53C457
+}
+.col h3{
+    font-size: 20px;
+    margin-left: -36px;
+    padding-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.col p{
+    font-size: 12px;
+    /* padding-left: 20px; */
+    font-family: 'Poppins', sans-serif;
+}
+.column-four{
+    display: absolute;
+    margin-top: 150px;
+}
+.first{
+  margin-right:150px;
+  width:400px;
+  height: 12vh;
+}
+.second{
+    margin-left: 100px;
+    width:400px;
+    height: 12vh;
+}
+.Third{
+    margin-left:200px ;
+    width:400px;
+    height: 12vh;
+}
+ 
+/* start of fifth section */
+.fifth {
+    background-image: url(images/pexels-uzunov-rostislav-10458835.jpeg),linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.623));
+    background-blend-mode: overlay;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    width:100%;
+    display: flex;
+}
+.fifth img{
+    padding-left: 60px;
+    padding-top: 160px;
+}
+.dec{
+    padding: 160px;
+
+}
+
+.fifth h2{
+   
+    font-size:45px;
+    line-height: 50px;
+    color: #ffffff;
+    /* padding-right: 150px; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* padding-bottom: 15px; */
+    padding: 40px 150px 15px 0px;
+
+    
+
+}
+.fifth p{
+   font-size: 16px;
+   line-height: 22px;
+   padding-right: 150px;
+    color:white;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300;
+   padding-bottom: 15px;
+  
+
+} 
+.fifth button{
+    padding: 15px 40px;
+    border:none;
+    display: inline-block;
+    transition: all ease-in 0.5s;
+    border-radius: 30px;
+    background: red;
+    color:white;
+}
+.fifth button a{
+    text-decoration: none;
+    color:white;
+}
+
+/* end of fifth section */
+
+.two-col{
+    width:100%;
+    height:70vh;
+    display: flex;
+    /* margin-top: 70px;
+    margin-bottom: 70px; */
+    padding-top: 70px;
+    padding-bottom: 70px;
+ 
+    background-color: #F3F3F3;
+
+    
+}
+.two-col img {
+    border-radius: 30px ;
+}
+.rgt-img img{
+    border-radius: 30px ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.two-col h3{
+    padding-top: 60px;
+    padding-left: 60px;
+    font-size: 35px;
+    line-height: 35px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-right: 160px;
+}
+.two-col p{
+    font-size: 15px;
+    line-height: 25px;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-right: 160px;
+}
+
+.right-col{
+    width:100%;
+    display: flex;
+    height:80vh;
+   padding: 70px 0px 70px 70px;
+    background-color: #F3F3F3;
+}
+.right-col h3{
+    padding-top: 60px;
+    padding-right: 160px;
+    font-size: 35px;
+    line-height: 35px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.rgt{
+padding-left: 80px;
+
+}
+.rgt p{
+    padding-right:50px;
+    font-size: 15px;
+    line-height: 25px;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+padding-right: 160px;
+}
+
+ /* start of why use us  */
+ .whyUse{
+    background-color: #F3F3F3;
+ }
+ .whyUse p{
+     /* margin:auto; */
+     text-align: center;
+     padding:20px 28rem; 
+     font-size: 16px;
+     line-height: 20px;
+     
+
+     }
+     .whyUse h2{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 35px;
+        line-height: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+     }
+
+   
+.stores-col {
+    display: flex;
+   justify-content: space-around;
+   width:1000px;
+   margin: 0 auto;
+   padding: 50px;
+   border-radius: 25px;
+   background: #ffffff;
+   
+   
+}
+.wrap{
+    
+    background-color: #F3F3F3;
+    /* background: #53C457; */
+   width: 100%;
+  background-size:cover;
+}
+/* .stores-col {
+    background-color: #F3F3F3;
+    /* background: #53C457; */
+  
+
+.stores-col p{
+    font-size: 14px;
+   
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.stores-col h3{
+    font-size: 18px;
+    color:#212121;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+
+
+/* start of accordion */
+.faqs{
+    background-color: #F3F3F3;
+    padding-bottom: 130px;
+    padding-top: 130px;
+}
+.faqs h2{
+
+    text-align: center;
+    font-size: 35px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#accordion{
+    margin: 10px auto;
+    width:900px;
+}
+#accordion li{
+    list-style: none;
+    width:100%;
+    margin-bottom:10px;
+    padding:10px;
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    color:#282828;
+    border-bottom: 1px solid black;
+}
+#accordion li label  span{
+    /* transform:rotate(90deg); */
+    font-size: 20px;
+    color:#333;
+}
+
+/* to hide the radio button */
+#accordion label + input[type="radio"]{
+    display:none;
+}
+
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ;
+
+}
+#accordion label + input[type="radio"]:checked + .content{
+    max-height:400px;
+}
+
+/* end of accordion */
